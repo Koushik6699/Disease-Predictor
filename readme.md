@@ -4,6 +4,10 @@
 
 ---
 
+**live demo** : https://disease-predictor-and-report.netlify.app/
+
+---
+
 ## ✨ Features
 
 - 🤖 **AI Symptom Analysis** — Random Forest classifier across 50+ diseases and 6 specialties
