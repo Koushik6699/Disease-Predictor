@@ -1,0 +1,317 @@
+{
+  "categories": [
+    {
+      "id": "cat_001",
+      "name": "Dermatology (Skin)",
+      "icon": "🩺",
+      "symptoms_list": ["itching", "redness", "dryness", "burning_sensation", "scaling", "blisters", "pustules", "skin_peeling", "hives", "swelling", "pigmentation", "hair_loss", "nail_changes", "oozing", "crusting"],
+      "diseases": [
+        {
+          "name": "Eczema (Atopic Dermatitis)",
+          "symptoms": ["itching", "redness", "dryness", "scaling", "skin_peeling"],
+          "severity": "Moderate"
+        },
+        {
+          "name": "Psoriasis",
+          "symptoms": ["scaling", "redness", "dryness", "itching", "skin_peeling", "nail_changes"],
+          "severity": "Moderate"
+        },
+        {
+          "name": "Contact Dermatitis",
+          "symptoms": ["burning_sensation", "blisters", "redness", "itching", "swelling"],
+          "severity": "Mild"
+        },
+        {
+          "name": "Urticaria (Hives)",
+          "symptoms": ["hives", "itching", "swelling", "redness"],
+          "severity": "Mild"
+        },
+        {
+          "name": "Acne Vulgaris",
+          "symptoms": ["pustules", "redness", "swelling", "oozing", "crusting"],
+          "severity": "Mild"
+        },
+        {
+          "name": "Rosacea",
+          "symptoms": ["redness", "burning_sensation", "pustules", "swelling"],
+          "severity": "Mild"
+        },
+        {
+          "name": "Tinea (Ringworm / Fungal)",
+          "symptoms": ["itching", "scaling", "redness", "hair_loss", "nail_changes"],
+          "severity": "Mild"
+        },
+        {
+          "name": "Alopecia Areata",
+          "symptoms": ["hair_loss", "itching", "nail_changes"],
+          "severity": "Moderate"
+        },
+        {
+          "name": "Impetigo",
+          "symptoms": ["blisters", "crusting", "oozing", "redness", "itching"],
+          "severity": "Moderate"
+        },
+        {
+          "name": "Vitiligo",
+          "symptoms": ["pigmentation", "hair_loss"],
+          "severity": "Low"
+        }
+      ]
+    },
+    {
+      "id": "cat_002",
+      "name": "Orthopedics (Bones & Joints)",
+      "icon": "🦴",
+      "symptoms_list": ["joint_pain", "stiffness", "swelling", "reduced_mobility", "cracking_sound", "bone_tenderness", "muscle_weakness", "back_pain", "numbness", "tingling", "warmth_in_joint", "fatigue", "deformity", "difficulty_walking", "night_pain"],
+      "diseases": [
+        {
+          "name": "Osteoarthritis",
+          "symptoms": ["joint_pain", "stiffness", "cracking_sound", "reduced_mobility", "swelling"],
+          "severity": "Moderate"
+        },
+        {
+          "name": "Rheumatoid Arthritis",
+          "symptoms": ["swelling", "stiffness", "joint_pain", "reduced_mobility", "fatigue", "warmth_in_joint"],
+          "severity": "High"
+        },
+        {
+          "name": "Osteoporosis",
+          "symptoms": ["bone_tenderness", "reduced_mobility", "back_pain", "difficulty_walking"],
+          "severity": "High"
+        },
+        {
+          "name": "Gout",
+          "symptoms": ["joint_pain", "swelling", "warmth_in_joint", "redness", "night_pain"],
+          "severity": "Moderate"
+        },
+        {
+          "name": "Herniated Disc",
+          "symptoms": ["back_pain", "numbness", "tingling", "muscle_weakness", "reduced_mobility"],
+          "severity": "High"
+        },
+        {
+          "name": "Tendinitis",
+          "symptoms": ["joint_pain", "swelling", "warmth_in_joint", "reduced_mobility"],
+          "severity": "Mild"
+        },
+        {
+          "name": "Fibromyalgia",
+          "symptoms": ["muscle_weakness", "fatigue", "joint_pain", "stiffness", "numbness", "tingling"],
+          "severity": "Moderate"
+        },
+        {
+          "name": "Carpal Tunnel Syndrome",
+          "symptoms": ["numbness", "tingling", "muscle_weakness", "joint_pain"],
+          "severity": "Moderate"
+        },
+        {
+          "name": "Scoliosis",
+          "symptoms": ["back_pain", "deformity", "reduced_mobility", "muscle_weakness"],
+          "severity": "Moderate"
+        },
+        {
+          "name": "Bursitis",
+          "symptoms": ["swelling", "joint_pain", "warmth_in_joint", "reduced_mobility"],
+          "severity": "Mild"
+        }
+      ]
+    },
+    {
+      "id": "cat_003",
+      "name": "Dental (Teeth & Gums)",
+      "icon": "🦷",
+      "symptoms_list": ["toothache", "gum_bleeding", "sensitivity_to_cold", "bad_breath", "swollen_gums", "jaw_pain", "loose_teeth", "tooth_discoloration", "dry_mouth", "mouth_sores", "difficulty_chewing", "sensitivity_to_heat", "gum_recession", "pus_discharge", "facial_swelling"],
+      "diseases": [
+        {
+          "name": "Dental Caries (Cavities)",
+          "symptoms": ["toothache", "sensitivity_to_cold", "sensitivity_to_heat", "tooth_discoloration"],
+          "severity": "Moderate"
+        },
+        {
+          "name": "Gingivitis",
+          "symptoms": ["gum_bleeding", "swollen_gums", "bad_breath", "gum_recession"],
+          "severity": "Mild"
+        },
+        {
+          "name": "Periodontitis",
+          "symptoms": ["gum_bleeding", "loose_teeth", "bad_breath", "pus_discharge", "gum_recession", "swollen_gums"],
+          "severity": "High"
+        },
+        {
+          "name": "Dental Abscess",
+          "symptoms": ["toothache", "facial_swelling", "pus_discharge", "jaw_pain", "bad_breath"],
+          "severity": "High"
+        },
+        {
+          "name": "Temporomandibular Disorder (TMD)",
+          "symptoms": ["jaw_pain", "difficulty_chewing", "toothache", "facial_swelling"],
+          "severity": "Moderate"
+        },
+        {
+          "name": "Oral Candidiasis (Thrush)",
+          "symptoms": ["mouth_sores", "bad_breath", "difficulty_chewing", "dry_mouth"],
+          "severity": "Moderate"
+        },
+        {
+          "name": "Dry Socket",
+          "symptoms": ["toothache", "bad_breath", "jaw_pain"],
+          "severity": "Moderate"
+        },
+        {
+          "name": "Bruxism (Teeth Grinding)",
+          "symptoms": ["jaw_pain", "toothache", "tooth_discoloration", "sensitivity_to_cold", "difficulty_chewing"],
+          "severity": "Mild"
+        }
+      ]
+    },
+    {
+      "id": "cat_004",
+      "name": "General Health",
+      "icon": "🏥",
+      "symptoms_list": ["fever", "cough", "headache", "fatigue", "vomiting", "nausea", "diarrhea", "chills", "sore_throat", "runny_nose", "body_ache", "loss_of_appetite", "shortness_of_breath", "chest_pain", "dizziness", "night_sweats", "weight_loss", "sweating", "confusion", "swollen_lymph_nodes"],
+      "diseases": [
+        {
+          "name": "Common Cold",
+          "symptoms": ["runny_nose", "sore_throat", "cough", "fatigue", "headache"],
+          "severity": "Low"
+        },
+        {
+          "name": "Influenza (Flu)",
+          "symptoms": ["fever", "body_ache", "fatigue", "cough", "headache", "chills"],
+          "severity": "Moderate"
+        },
+        {
+          "name": "COVID-19",
+          "symptoms": ["fever", "cough", "fatigue", "shortness_of_breath", "body_ache", "loss_of_appetite"],
+          "severity": "High"
+        },
+        {
+          "name": "Typhoid Fever",
+          "symptoms": ["fever", "headache", "vomiting", "diarrhea", "fatigue", "loss_of_appetite"],
+          "severity": "High"
+        },
+        {
+          "name": "Dengue Fever",
+          "symptoms": ["fever", "body_ache", "headache", "vomiting", "fatigue", "chills"],
+          "severity": "High"
+        },
+        {
+          "name": "Malaria",
+          "symptoms": ["fever", "chills", "sweating", "headache", "vomiting", "fatigue", "night_sweats"],
+          "severity": "High"
+        },
+        {
+          "name": "Gastroenteritis",
+          "symptoms": ["vomiting", "diarrhea", "nausea", "fever", "body_ache", "loss_of_appetite"],
+          "severity": "Moderate"
+        },
+        {
+          "name": "Pneumonia",
+          "symptoms": ["fever", "cough", "shortness_of_breath", "chest_pain", "fatigue", "sweating"],
+          "severity": "High"
+        },
+        {
+          "name": "Anemia",
+          "symptoms": ["fatigue", "dizziness", "shortness_of_breath", "confusion", "weight_loss"],
+          "severity": "Moderate"
+        },
+        {
+          "name": "Tuberculosis (TB)",
+          "symptoms": ["cough", "night_sweats", "weight_loss", "fever", "fatigue", "chest_pain"],
+          "severity": "High"
+        }
+      ]
+    },
+    {
+      "id": "cat_005",
+      "name": "Neurology (Brain & Nerves)",
+      "icon": "🧠",
+      "symptoms_list": ["severe_headache", "dizziness", "memory_loss", "seizures", "numbness", "vision_changes", "speech_difficulty", "tremors", "balance_problems", "fainting", "confusion", "sensitivity_to_light", "neck_stiffness", "tingling", "weakness_one_side"],
+      "diseases": [
+        {
+          "name": "Migraine",
+          "symptoms": ["severe_headache", "sensitivity_to_light", "nausea", "vision_changes", "dizziness"],
+          "severity": "Moderate"
+        },
+        {
+          "name": "Epilepsy",
+          "symptoms": ["seizures", "confusion", "fainting", "memory_loss"],
+          "severity": "High"
+        },
+        {
+          "name": "Stroke",
+          "symptoms": ["weakness_one_side", "speech_difficulty", "vision_changes", "severe_headache", "balance_problems"],
+          "severity": "Critical"
+        },
+        {
+          "name": "Meningitis",
+          "symptoms": ["severe_headache", "neck_stiffness", "fever", "sensitivity_to_light", "confusion"],
+          "severity": "Critical"
+        },
+        {
+          "name": "Parkinson's Disease",
+          "symptoms": ["tremors", "balance_problems", "speech_difficulty", "memory_loss", "weakness_one_side"],
+          "severity": "High"
+        },
+        {
+          "name": "Multiple Sclerosis",
+          "symptoms": ["numbness", "tingling", "balance_problems", "vision_changes", "fatigue"],
+          "severity": "High"
+        },
+        {
+          "name": "Vertigo",
+          "symptoms": ["dizziness", "balance_problems", "nausea", "fainting"],
+          "severity": "Moderate"
+        },
+        {
+          "name": "Alzheimer's Disease",
+          "symptoms": ["memory_loss", "confusion", "speech_difficulty", "balance_problems"],
+          "severity": "High"
+        }
+      ]
+    },
+    {
+      "id": "cat_006",
+      "name": "Cardiology (Heart)",
+      "icon": "❤️",
+      "symptoms_list": ["chest_pain", "shortness_of_breath", "palpitations", "fatigue", "swelling_in_legs", "dizziness", "fainting", "irregular_heartbeat", "sweating", "nausea", "jaw_pain", "arm_pain", "high_blood_pressure_symptoms", "coughing_at_night", "reduced_exercise_tolerance"],
+      "diseases": [
+        {
+          "name": "Coronary Artery Disease",
+          "symptoms": ["chest_pain", "shortness_of_breath", "fatigue", "sweating", "reduced_exercise_tolerance"],
+          "severity": "High"
+        },
+        {
+          "name": "Heart Attack (Myocardial Infarction)",
+          "symptoms": ["chest_pain", "arm_pain", "jaw_pain", "sweating", "nausea", "shortness_of_breath"],
+          "severity": "Critical"
+        },
+        {
+          "name": "Arrhythmia",
+          "symptoms": ["palpitations", "irregular_heartbeat", "dizziness", "fainting", "shortness_of_breath"],
+          "severity": "High"
+        },
+        {
+          "name": "Heart Failure",
+          "symptoms": ["shortness_of_breath", "swelling_in_legs", "fatigue", "coughing_at_night", "reduced_exercise_tolerance"],
+          "severity": "High"
+        },
+        {
+          "name": "Hypertension",
+          "symptoms": ["high_blood_pressure_symptoms", "headache", "dizziness", "palpitations"],
+          "severity": "Moderate"
+        },
+        {
+          "name": "Pericarditis",
+          "symptoms": ["chest_pain", "shortness_of_breath", "fatigue", "palpitations"],
+          "severity": "Moderate"
+        },
+        {
+          "name": "Deep Vein Thrombosis (DVT)",
+          "symptoms": ["swelling_in_legs", "chest_pain", "shortness_of_breath"],
+          "severity": "High"
+        }
+      ]
+    }
+  ]
+}
