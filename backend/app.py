@@ -13,6 +13,16 @@ load_dotenv()
 
 app = Flask(__name__)
 CORS(app)
+@app.route("/")
+def home():
+    return jsonify({
+        "status": "Disease Predictor API is running",
+        "endpoints": [
+            "/predict",
+            "/ai-advice",
+            "/symptoms"
+        ]
+    })
 
 # Configure Gemini AI
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")

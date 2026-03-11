@@ -3,7 +3,7 @@
    Dark/Light Theme + PDF Receipt
    ═══════════════════════════════════════════ */
 
-const API = 'http://127.0.0.1:5000';
+const API = 'https://disease-predictor-2-duia.onrender.com';
 
 // ── State ────────────────────────────────────────────────────────────────────
 let allCategories  = {};
